@@ -10,7 +10,7 @@ List of Operations:
 3. Uses a while True loop to check for keyboard input.
 """
 
-import keyboard
+import py.keyboard as keyboard
 
 def print_key_event(event):
     """

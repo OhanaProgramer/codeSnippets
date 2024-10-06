@@ -1,31 +1,32 @@
 // Demonstrates how to use switch statements to handle different conditions. Grades are used as an example.
 // Created by: Jacque Wilson on 10/05/2024 - OhanaCodes
 
+/* Explanation:
+
+The switch statement handles multiple possible values of grade.
+break is used to prevent executing the next case. */
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    char grade = 'A';
+    char grade = 'B';
 
+    // Determine performance based on grade
     switch (grade) {
         case 'A':
             cout << "Excellent!" << endl;
-            break;
+            break; // Stops execution to avoid fall-through
         case 'B':
             cout << "Good job!" << endl;
             break;
         case 'C':
-            cout << "Well done!" << endl;
-            break;
-        case 'D':
-            cout << "You passed!" << endl;
-            break;
-        case 'F':
-            cout << "Better luck next time!" << endl;
+            cout << "Average." << endl;
             break;
         default:
-            cout << "Invalid grade!" << endl;
+            cout << "Needs improvement." << endl;
     }
+
     return 0;
 }
 

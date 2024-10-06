@@ -1,6 +1,8 @@
 //Demonstrates how to detect a range using if-else statements and logical operators
 // Created by: Jacque Wilson on 10/05/2024 - OhanaCodes
+/* Explaination:
 
+*/
 #include <iostream>
 using namespace std;
 
