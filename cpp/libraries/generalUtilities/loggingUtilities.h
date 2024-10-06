@@ -1,0 +1,1 @@
+// Provides functions for logging messages to the console or to a file. Includes different logging levels (e.g., info, warning, error).

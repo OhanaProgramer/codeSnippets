@@ -1,0 +1,1 @@
+//Contains functions for validating strings (e.g., password strength, email format, special character checks).

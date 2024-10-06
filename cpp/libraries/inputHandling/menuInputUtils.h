@@ -1,0 +1,1 @@
+//Provides functions specifically for handling menu selections in command-line programs, ensuring the user enters a valid option.

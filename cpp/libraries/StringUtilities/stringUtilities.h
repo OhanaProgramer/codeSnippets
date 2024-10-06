@@ -1,0 +1,1 @@
+//Contains reusable functions for manipulating strings, including toLower, toUpper, replaceSubstring, and countVowels.
