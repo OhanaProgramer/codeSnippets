@@ -1,0 +1,10 @@
+# Write a function that accepts an array of 10 integers (between 0 and 9), 
+# that returns a string of those numbers in the form of a phone number.
+
+def create_phone_number(n):
+    return "({}{}{}) {}{}{}-{}{}{}{}".format(*n)
+
+"""
+.format(*n) is a way to unpack the list n into the format string.
+
+"""
